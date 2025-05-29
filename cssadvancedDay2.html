@@ -28,9 +28,9 @@
     <div class="headerdiv">
       <header>
         <img src="assets/img/logo.svg" alt="Epicode logo" />
-        <h3>Epicode - Il blog dei developers</h3>
+        <h3 class="scbianca">Epicode - Il blog dei developers</h3>
         <ul>
-          <a href="#">
+          <a href="#" class="scbianca">
             <li>Home</li>
             <li>Articoli</li>
             <li>Job</li></a
@@ -44,7 +44,10 @@
     <div class="main">
       <main>
         <h2>Come creare un template per i post</h2>
-        <p>di Mario Rossi - pubblicato il 25-10-2020</p>
+        <p>
+          <i class="fas fa-user"> Mario Rossi </i> -
+          <i class="fas fa-clock"> pubblicato il 25-10-2020 </i>
+        </p>
         <p>
           La prima cosa da fare é suddividere in blocchi logici la pagina,
           identificando le parti comuni da applicare a tutte le pagine
@@ -61,8 +64,8 @@
 
         <p>
           Il testo dell'articolo dovrá essere formattato per identificare tutte
-          le parti da <strong> selezionare con i CSS.</strong> Perció i passi
-          saranno :
+          le parti da <span class="purple">selezionare con i CSS.</span> Perció
+          i passi saranno :
         </p>
         <ol>
           <li>
@@ -118,7 +121,6 @@
               <td>76%</td>
             </tr>
           </tbody>
-          
         </table>
 
         <p>
@@ -143,47 +145,42 @@
         >
         </iframe>
 
-      
-          
-<div class="unosu3">
+        <div class="unosu3">
+          <h3 class="center">Novitá</h3>
 
+          <p>
+            Vuoi rimanere aggiornato su altre novitá del blog? Iscriviti alla
+            nostra newsletter:
+          </p>
 
-        <h3>Novitá</h3>
-
-        <p>
-          Vuoi rimanere aggiornato su altre novitá del blog? Iscriviti alla
-          nostra newsletter:
-        </p>
-
-        <input type="email" placeholder="Inserisci la tua email" />
-        <button type="button">Iscriviti!</button>
-
+          <input type="email" placeholder="Inserisci la tua email" />
+          <button type="button">Iscriviti!</button>
         </div>
 
-        <h3>Articoli correlati</h3>
+        <h3 class="center">Articoli correlati</h3>
 
         <div class="unosu3">
           <p><a href="#"> il codice HTML </a></p>
 
-          <p>Categoria develop</p>
+          <p><i class="fas fa-tag">Categoria develop </i></p>
 
-          <p>Data: 18-9-2020</p>
+          <p><i class="fas fa-calendar-alt"> Data: 18-9-2020 </i></p>
         </div>
 
         <div class="unosu3">
           <p><a href="#"> Corregere la sintassi</a></p>
 
-          <p>Categoria Develop</p>
+          <p><i class="fas fa-tag"> Categoria Develop </i></p>
 
-          <p>Data: 16-9-2020</p>
+          <p><i class="fas fa-calendar-alt"> </i>Data: 16-9-2020</p>
         </div>
 
         <div class="unosu3">
           <p><a href="#"> Meno Kb nella pagina </a></p>
 
-          <p>Categoria Ottimizzazione</p>
+          <p><i class="fas fa-tag">Categoria Ottimizzazione </i></p>
 
-          <p>Data: 30-9-2020</p>
+          <p><i class="fas fa-calendar-alt"> Data: 30-9-2020 </i></p>
         </div>
       </main>
     </div>
@@ -192,14 +189,22 @@
 
     <div class="footerdiv">
       <footer>
-        <p>Blog Epicode &copy;2023</p>
+        <span class="center">
+          <p class="scbianca,">Blog Epicode &copy;2023</p>
+        </span>
 
-        <p>
+        <p class="scbianca">
           Testata online di Mario Rossi, registrata con prot. n.213/2018 - via
           Luigi Einaudi 2- Milano. P.iva 00112233.
-          <a href="#">info@epicode.school</a>
+          <a href="#" id="afooter">info@epicode.school</a>
         </p>
       </footer>
     </div>
   </body>
 </html>
+
+<style>
+  i.fas.fa-tag {
+    margin-right: 8px;
+  }
+</style>

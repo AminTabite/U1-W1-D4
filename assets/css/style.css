@@ -8,19 +8,25 @@ body {
 h1,
 h2,
 h3 {
-  font-size: 2em;
+  font-size: 4em;
   margin: 0.67em 0;
 }
-p {
-  font-size: small;
+p,a, li{
+  font-size: 1,5em;
 }
+
+img {
+  padding-left: 30px;
+}
+header { text-align: center;}
 
 /* HEADER */
 .headerdiv {
   width: 100%;
   border: solid 1px;
-  padding: 10px;
-  background-color: aqua;
+  padding:;
+  background:linear-gradient(to right, rgb(3, 101, 121), rgb(3, 97, 152));
+  box-sizing: border-box 100%;
 }
 /* MAIN */
 .main {
@@ -69,7 +75,7 @@ th {
   margin-bottom: 10px;
   border: solid 1px;
   padding: 20px;
-  background-color: rgb(9, 71, 59);
+  background:linear-gradient(to right, rgb(3, 67, 19), rgb(19, 105, 49));
 }
 
 .video {
@@ -84,7 +90,52 @@ th {
   background-color: lightgrey;
   margin: 25px;
 }
+.unosu3 p:nth-of-type(3) {
+    text-align:right
+}
 
 .center {
+  text-align: center;
+  font-weight: bold;
+}
+
+.scbianca {
+  color: white;
+}
+
+
+.purple { 
+    color: purple;
+font-weight: bold;
+}
+
+a {
+    color: rgb(3, 97, 152);
+    text-decoration: none;
+    padding: 5px;
+}
+
+#afooter {
+    color:blueviolet
+}
+
+button {
+    background-color: rgb(3, 97, 152);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.menu a
+{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    width: 100px;
+}
+
+.menu {
   text-align: center;
 }
