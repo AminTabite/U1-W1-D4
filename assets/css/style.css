@@ -1,18 +1,90 @@
 /* IMPOSTAZIONI GENERALI */
-h1 { 
+body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  background-image: url("../img/sfondo.png");
+}
+h1,
+h2,
+h3 {
   font-size: 2em;
   margin: 0.67em 0;
 }
+p {
+  font-size: small;
+}
+
 /* HEADER */
-
+.headerdiv {
+  width: 100%;
+  border: solid 1px;
+  padding: 10px;
+  background-color: aqua;
+}
 /* MAIN */
-
+.main {
+  margin-top: 40px;
+  border: solid 1px;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+}
 /* ELEMENTI NEL MAIN - ARTICLE */
 
 /* TABELLE */
 
+table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+table th,
+table td {
+  border: solid 1px black;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: rgb(38, 23, 255);
+  color: white;
+}
+
+.grey {
+  background-color: lightgrey;
+}
 /* FORM */
 
 /* ELEMENTI NELL' ASIDE */
 
 /* FOOTER */
+.footerdiv {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  border: solid 1px;
+  padding: 20px;
+  background-color: rgb(9, 71, 59);
+}
+
+.video {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.unosu3 {
+  border: solid 1px;
+  padding: 20px;
+  background-color: lightgrey;
+  margin: 25px;
+}
+
+.center {
+  text-align: center;
+}
